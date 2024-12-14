@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+main {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkred;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card-header {
+    font-size: 40px;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+
+.shop {
+    display: inline-flex;
+
+}
+
+button {
+    color: darkred;
+    background-color: black;
+}
+
+button:hover {
+    color: black;
+    background-color: darkred;
+}
